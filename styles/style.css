@@ -45,7 +45,7 @@
   justify-content: center;*/
   line-height: 96px;
   font-size: 102px;
-  margin: 64px;
+  margin: 0 0 0 64px;
   z-index: 1;
 
   /*border: 1px solid red;*/
@@ -59,6 +59,7 @@
   line-height: 25px;
   font-size: 18px;
   z-index: 1;
+  margin: 0;
 
   /*border: 1px solid red;*/
 }
@@ -75,7 +76,7 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__squre-pic {
+.header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -194,11 +195,11 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin: 20px 0 0 0;
 }
 
 .table__text:last-child {
-  margin-bottom: 0;
+  margin: 20px 0 0 0;
 }
 
 .feynman {
@@ -214,7 +215,7 @@
   position: relative;
 }
 
-.fyeman__title {
+.fyenman__title {
   /*display: block;*/
   line-height: 1.15;
   font-size: 120px;
@@ -226,7 +227,7 @@
   /*border: 1px solid red;*/
 }
 
-.feyman__subtitle {
+.feynman__subtitle {
   /*display: block;*/
   line-height: 51px;
   font-size: 36px;
@@ -237,7 +238,7 @@
   /*border: 1px solid red;*/
 }
 
-.feyman__link {
+.feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -286,7 +287,7 @@
   /*border: 1px solid red;*/
 }
 
-.table__theme_dark {
+.table_theme_dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -322,9 +323,11 @@
   }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   width: 877px;
   height: 877px;
-  color: #2f80ed;
+  /*color: #2f80ed;*/
   position: absolute;
   top: 0;
   right: -210px;
@@ -361,6 +364,8 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
 }
 
 .footer__author {
