@@ -1,0 +1,10 @@
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 30px 0 0 0;
+}
+
+.two-columns__paragraph:first-child {
+  margin: 0 0 0 0;
+}

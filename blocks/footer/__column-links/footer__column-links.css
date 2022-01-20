@@ -1,0 +1,7 @@
+.footer__column-links {
+  display: list-item;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 20px 0 16px;
+  padding: 0;
+}
