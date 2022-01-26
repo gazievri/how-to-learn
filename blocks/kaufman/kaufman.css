@@ -6,4 +6,5 @@
   position: relative;
   overflow: hidden;
   margin: 0 0 0 0;
+  z-index: -5;
 }

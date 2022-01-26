@@ -2,6 +2,8 @@
   width: 270px;
   height: 38px;
   transition: opacity, 0.5s;
+  display: flex;
+  justify-content: center;
 }
 
 .resources__logo:hover {
